@@ -13,8 +13,6 @@ const PasswordGen = () => {
   
   useEffect(() => {
 
-    setCopyBtn(false)
-
     const generatePassword = () => {
       let pass = "";
       let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -39,10 +37,11 @@ const PasswordGen = () => {
     // passwordRef.current?.setSelectionRange(0,4)
 
     setCopyBtn(true)
+    setTimeout(() => setCopyBtn(false), 1500)
 
     // console.log("passwordRef:", passwordRef.current)
 
-    window.navigator.clipboard.writeText(password);
+    navigator.clipboard.writeText(password);
   }
 
   return (
@@ -66,7 +65,7 @@ const PasswordGen = () => {
 
           <button
             onClick={handleCopyToClipboard}
-            className='text-white bg-amber-300 rounded px-3 py-0.5 hover:bg-amber-400'
+            className={`text-white rounded px-3 py-0.5 hover:bg-amber-500 ${copyBtn ? "bg-green-400 hover:bg-green-400" : "bg-amber-300"}`}
           >
             {copyBtn ? "Copied" : "Copy"}
           </button>
