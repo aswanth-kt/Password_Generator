@@ -28,6 +28,12 @@ This project demonstrates:
 
 ---
 
+## 🎥 Demo Video
+
+▶️ [Watch the Demo](https://youtu.be/c-x18crndyg)
+
+---
+
 ## ⚙️ Installation
 
 ### 1. Clone the repository
