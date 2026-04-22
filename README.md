@@ -12,6 +12,7 @@
 - 🔣 Optional special characters
 - 📋 One-click copy to clipboard
 - ⚡ Fast and responsive UI
+-  🌙 Dark Mode Support (User preference saved in localStorage)
 
 ---
 
@@ -28,9 +29,15 @@ This project demonstrates:
 
 ---
 
+## 🌐 Live Demo
+
+👉 [Live Link](https://password-generator-passcraft.vercel.app)
+
+---
+
 ## 🎥 Demo Video
 
-▶️ [Watch the Demo](https://youtu.be/c-x18crndyg)
+▶️ [Watch the Demo](https://youtu.be/l4A715Jnb-s)
 
 ---
 
