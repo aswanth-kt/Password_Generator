@@ -45,11 +45,11 @@ const PasswordGen = () => {
   }
 
   return (
-    <div className='w-full max-w-md mx-auto shadow-md rounded-2xl px-4 my-20 border border-amber-200 bg-gray-900'>
+    <div className='w-full max-w-md mx-auto shadow-md rounded-2xl px-4 my-20 border border-amber-200  dark:bg-gray-800'>
       
       <div className='flex flex-col gap-3 items-center px-4 py-8'>
 
-        <h1 className='text-2xl text-white font-semibold'>
+        <h1 className='text-2xl text-black dark:text-white font-semibold'>
           Password Generator
         </h1>
 
@@ -60,12 +60,12 @@ const PasswordGen = () => {
             value={password}
             readOnly
             ref={passwordRef}
-            className='outline-none rounded-md text-amber-500 w-full py-1 px-3 shadow-2xl'
+            className='outline-none rounded-md dark:text-amber-500 w-full py-1 px-3 shadow-2xl '
           />
 
           <button
             onClick={handleCopyToClipboard}
-            className={`text-white rounded px-3 py-0.5 hover:bg-amber-500 ${copyBtn ? "bg-green-400 hover:bg-green-400" : "bg-amber-300"}`}
+            className={`dark:text-white rounded px-3 py-0.5 hover:bg-amber-500 ${copyBtn ? "bg-green-400 hover:bg-green-400" : "bg-amber-300"}`}
           >
             {copyBtn ? "Copied" : "Copy"}
           </button>
