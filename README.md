@@ -7,7 +7,7 @@
 ## 🚀 Features
 
 - 🔑 Instant password generation
-- 📏 Adjustable length (6–30 characters)
+- 📏 Adjustable length (8–30 characters)
 - 🔢 Optional numbers inclusion
 - 🔣 Optional special characters
 - 📋 One-click copy to clipboard
