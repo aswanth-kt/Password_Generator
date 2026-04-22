@@ -22,7 +22,6 @@ This project demonstrates:
 
 - React Functional Components
 - useState for state management
-- useMemo for derived state
 - Controlled form inputs
 - Clipboard API (`navigator.clipboard`)
 - Clean UI logic without unnecessary effects
